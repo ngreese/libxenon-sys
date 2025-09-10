@@ -5,8 +5,8 @@ edition = "2024"
 authors = ["Nathanael G. Reese <nathanaelreese@acm.org>"]
 description = "FFI bindings to libxenon."
 license = "MIT"
-homepage = "https://gitlab.com/ngreese/libxenon-sys"
-repository = "https://gitlab.com/ngreese/libxenon-sys"
+homepage = "https://gitlab.com/ngreese/libxenon-ffi"
+repository = "https://gitlab.com/ngreese/libxenon-ffi"
 readme = "README.md"
 keywords = ["libxenon", "hardware", "bindings", "xbox360"]
 
