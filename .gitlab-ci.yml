@@ -18,13 +18,17 @@ clippy:
   extends: .cargo_clippy
 
 tests:
+  needs: [format, clippy]
   extends: .cargo_test
 
 build:
+  needs: [tests]
   extends: .cargo_build
 
 release:
+  needs: [tests]
   extends: .cargo_build_release
 
-#publish:
-#  extends: .cargo_publish
+publish:
+  needs: [release]
+  extends: .cargo_publish
