@@ -26,5 +26,5 @@ build:
 release:
   extends: .cargo_build_release
 
-publish:
-  extends: .cargo_publish
+#publish:
+#  extends: .cargo_publish
