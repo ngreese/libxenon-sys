@@ -1,5 +1,5 @@
 [package]
-name = "libxenon-sys"
+name = "libxenon-ffi"
 version = "0.1.0"
 edition = "2024"
 authors = ["Nathanael G. Reese <nathanaelreese@acm.org>"]
@@ -10,7 +10,7 @@ repository = "https://gitlab.com/ngreese/libxenon-sys"
 readme = "README.md"
 keywords = ["libxenon", "hardware", "bindings", "xbox360"]
 
-build = "build.rs"
+build = "build/build.rs"
 # links = "libxenon" // TODO: figure this out
 
 [dependencies]
